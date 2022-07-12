@@ -3,7 +3,7 @@ plugins {
   id 'org.jetbrains.kotlin.android'
 }
 
-group = 'com.github.DapatGaji'
+group = 'com.github.dapatgaji'
 
 android {
   compileSdk 32

@@ -1,4 +1,4 @@
-package com.mukesh.otpview_example.ui.theme
+package com.dapatgaji.otpview_example.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
