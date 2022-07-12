@@ -51,7 +51,6 @@ fun OtpView(
         decorationBox = {
             Row(horizontalArrangement = Arrangement.SpaceAround) {
                 repeat(otpCount) { index ->
-                    Spacer(modifier = Modifier.width(2.dp))
                     CharView(
                         index = index,
                         text = otpText,
@@ -63,7 +62,6 @@ fun OtpView(
                         password = password,
                         passwordChar = passwordChar,
                     )
-                    Spacer(modifier = Modifier.width(2.dp))
                 }
             }
         })
